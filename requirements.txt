@@ -1,0 +1,13 @@
+configparser
+pandas
+scikit-learn
+brine
+sklearn
+scipy
+jira
+awscli
+boto
+boto3
+paramiko
+requests
+datetime

@@ -1,0 +1,10 @@
+name: create_jira
+runner_type: python-script
+description: "Creates jira issue"
+enabled: true
+entry_point: "create_jira.py"
+parameters:
+  summary:
+    type: "string"
+    description: "Jira Summary"
+    required: true

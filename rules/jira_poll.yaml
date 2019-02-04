@@ -1,0 +1,13 @@
+---
+name: "jira_poll"
+description: "Sensor for polling JIRA"
+enabled: true
+
+trigger:
+    type: "jira.issues_tracker"
+
+action:
+    ref: "jira.jira_workflow"
+    parameters:
+        queryString: "{{trigger.summary}}"
+        jiraID: "{{trigger.issue_name}}"

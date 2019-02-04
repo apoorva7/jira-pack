@@ -1,0 +1,16 @@
+---
+  url:
+    description: "FQDN to Jira API endpoint "
+    type: "string"
+    secret: false
+    required: true
+  username:
+    description: "Jira Username (if auth is enabled)"
+    type: "string"
+    secret: false
+    required: false
+  password:
+    description: "Jira Password (if auth is enabled)"
+    type: "string"
+    secret: true
+    required: false

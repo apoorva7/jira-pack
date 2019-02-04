@@ -1,0 +1,14 @@
+name: assign_jira
+runner_type: python-script
+description: "Assigns issues to developers"
+enabled: true
+entry_point: "assign_jira.py"
+parameters:
+  jiraID:
+    type: "string"
+    description: "Jira ID"
+    required: true
+  assignee:
+    type: "string"
+    description: "Developer for whom the issue will be assigned"
+    required: true
