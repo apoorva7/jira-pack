@@ -1,7 +1,7 @@
 ---
-ref: jira
-name: jira
-description: Jira Pack
-version: 0.1.1
-author: Savya7223
-email: sshrinidhi07@gmail.com
+ref: jira_pack
+name: jira_pack
+description: Stackstorm pack for JIRA
+version: 2.0.0
+author: divya.r.purushotham
+email: 
