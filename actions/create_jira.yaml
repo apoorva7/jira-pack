@@ -4,7 +4,19 @@ description: "Creates jira issue"
 enabled: true
 entry_point: "create_jira.py"
 parameters:
+  project:
+    type: "string"
+    description: "Jira project"
+    required: true
   summary:
     type: "string"
     description: "Jira Summary"
+    required: true    
+  description:
+    type: "string"
+    description: "Jira description"
+    required: true
+  issuetype:
+    type: "string"
+    description: "Jira issuetype"
     required: true
