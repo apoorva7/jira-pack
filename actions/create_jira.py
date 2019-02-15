@@ -3,7 +3,7 @@ from jira import JIRA
 
 
 class jira(Action):
-    def run(self, summary):
+    def run(self, project, summary, description, issuetype):
         jira_url = self.config['jira_url']
         username = self.config['jira_username']
         password = self.config['jira_password']
