@@ -1,4 +1,4 @@
-name: create_jira
+name: search_jira
 description: "Search issues assigned to users"
 runner_type: python-script
 enabled: true
@@ -6,5 +6,5 @@ entry_point: "search_jira.py"
 parameters:
   userName:
     type: "string"
-    description: "user name"
+    description: "Username of the assignee"
     required: true
